@@ -1,0 +1,96 @@
+.nor{
+	background-color:lightskyblue;
+}
+.banner-head{
+	font-size:65px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: Bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bankname{
+	color:white;
+	font-size:35px;
+	font-family:'Times New Roman', Times, serif;
+	font-weight: Bold;
+	text-align: center;
+}
+
+.best{
+	color:yellow;
+}
+
+.z-column {
+    font-weight: bold;
+    text-align: center;
+    background-color: lightblue;    
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+.z-row label{
+	color:green;
+	}
+
+.z-row {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+
+.container{
+    width: 130vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 18s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    16.66%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-100%);
+    }
+    36.66%{
+        transform: translateX(-100%);
+    }
+    40%{
+        transform: translateX(-200%);
+    }
+    56.66%{
+        transform: translateX(-200%);
+    }
+    60%{
+        transform: translateX(-300%);
+    }
+    76.66%{
+        transform: translateX(-300%);
+    }
+    80%{
+        transform: translateX(-400%);
+    }
+    96.66%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(-500%);
+    }
+}
+
+image{
+    width: 100%;
+}

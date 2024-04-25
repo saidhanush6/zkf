@@ -1,0 +1,16 @@
+<zk>
+<div hflex="1" sclass="banner">
+    <hbox hflex="1" align="center">
+       
+            <image src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Seal_of_the_Reserve_Bank_of_India.svg" width="100px" height="100px" />
+       
+        <div width="1100px" align="center">
+            <label pre="true" value="BANKING FUNDAS"  sclass="banner-head" />
+        </div>
+        <hbox hflex="1" vflex="1" pack="end" align="end">
+          
+	            <image src="https://pennanttech.com/wp-content/uploads/2021/08/Pennant-logo-color-1.png" width="180px" height="100px" />
+        </hbox>
+    </hbox>
+</div>
+</zk>

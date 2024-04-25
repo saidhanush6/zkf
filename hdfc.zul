@@ -1,0 +1,65 @@
+<?link rel="stylesheet" type="text/css" href="styles.css"?>
+<zk>
+    <style>
+        .circle-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px; /* Adjust height as needed */
+        }
+
+        .loan-circle {
+            width: 150px; /* Size of each circle */
+            height: 150px;
+            border-radius: 50%; /* Make it a circle */
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px; /* Adjust spacing between circles */
+        }
+
+        .loan-type {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .interest-range {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+
+    <label pre="true" value="HDFC BANK" class="bankname" />
+    
+    <div class="circle-container">
+        <div class="loan-circle">
+            <label value="Personal Loan" class="loan-type" />
+            <label value="Interest: 10.00%" class="interest-range" />
+        </div>
+        <div class="loan-circle">
+            <label value="Home Loan" class="loan-type" />
+            <label value="Interest: 9.50%" class="interest-range" />
+        </div>
+        <div class="loan-circle">
+            <label value="Gold Loan" class="loan-type" />
+            <label value="Interest: 9.25%" class="interest-range" />
+        </div>
+        <div class="loan-circle">
+            <label value="Education Loan" class="loan-type" />
+            <label value="Interest: 7.25%" class="interest-range" />
+        </div>
+        <div class="loan-circle">
+            <label value="Vehicle Loan" class="loan-type" />
+            <label value="Interest: 10.50%" class="interest-range" />
+        </div>
+        <div class="loan-circle">
+            <label value="Agriculture Loan" class="loan-type" />
+            <label value="Interest: 7.50%" class="interest-range" />
+        </div>
+    </div>
+
+    <label pre="true" value="BEST LOAN TYPE : EDUCATION LOAN" class="best" />
+</zk>

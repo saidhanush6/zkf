@@ -1,0 +1,46 @@
+<?link rel="stylesheet" type="text/css" href="styles.css"?>
+<zk >
+<zscript>
+<![CDATA[
+  	void display(String x)
+  	{
+  		if(x.equals("sbi"))
+  		{
+  			load.setSrc("sbi.zul");
+  		}
+  		else if(x.equals("axis"))
+  		{
+  	  		load.setSrc("axis.zul");
+  		}
+  		else if(x.equals("hdfc"))
+  		{
+  	  		load.setSrc("hdfc.zul");
+  		}
+  		else if(x.equals("kotak"))
+  		{
+  	  		load.setSrc("kotak.zul");
+  		}
+  		else if(x.equals("boi"))
+  		{
+  	  		load.setSrc("boi.zul");
+  		}
+  		else if(x.equals("bajaj"))
+  		{
+  	  		load.setSrc("bajaj.zul");
+  		}
+  	}
+  	]]>
+</zscript>
+
+<borderlayout hflex="1" vflex="1">
+<north height="150px" border="none" sclass="nor">
+	<include id="nload" src="nor.zul"/>
+</north>
+<west width="210px" border="none" style="background-color:lightblue;">
+	<include id="wload" src="wes.zul"/>
+</west>
+<center id="mainContent" autoscroll="true" style="background-image: url('bank_bckg.avif'); background-size: cover;">
+	<include id="load" src="cent.zul"/>
+</center>
+</borderlayout>
+</zk>
